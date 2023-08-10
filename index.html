@@ -1,62 +1,33 @@
 
- html,body{
-    height: 100%;
-    margin:0;
-    padding:0;
-}
-body{
-    background: url(https://github.com/blue-anne/blue-anne.github.io/blob/main/images/2023-04-12-baby-blue~02.jpeg?raw=true) no-repeat center center;
-    background-size: cover;
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
 }
 
-<!-- <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Static Image Website</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f0f0;
-        }
-        
-        header {
-            background-color: #333;
-            color: #fff;
-            text-align: center;
-            padding: 1em 0;
-        } -->
-        
-<!--             .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 2em;
-            background-color: #fff;
-            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-            border-radius: 5px; 
-            text-align: center;
-        }
-        
-        .image-container {
-            max-width: 100%;
-            margin-top: 1em;
-        }
-        
-        img {
-            max-width: 100%;
-            height: auto;
-        }
-    </style>
+.bg {
+  /* The image used */
+  background-image: url("https://github.com/blue-anne/blue-anne.github.io/blob/main/images/2023-04-12-baby-blue~02.jpeg?raw=true");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
 </head>
 <body>
-    <div class="container">
-        <div class="image-container">
-            <img src="https://github.com/blue-anne/blue-anne.github.io/blob/main/images/2023-04-12-baby-blue~02.jpeg?raw=true" alt="Baby Blue">
-        </div>
-    </div>
+
+<div class="bg"></div>
+
+<p>This example creates a full page background image. Try to resize the browser window to see how it always will cover the full screen (when scrolled to top), and that it scales nicely on all screen sizes.</p>
+
 </body>
 </html>
- -->
